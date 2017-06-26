@@ -34,4 +34,6 @@ function create_dropdown($id,$pairs,$label,$selected,$multi="") {
   $dd .= "</select>";
   return $dd;
 }
+
+//this is a comment
 ?>
