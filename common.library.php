@@ -1,5 +1,5 @@
 <?php
-function trim_string($str) {
+/*function trim_string($str) {
   $str = str_replace("å", "&aring;", $str);
   $str = str_replace("ä", "&auml;", $str);
   $str = str_replace("ö", "&ouml;", $str);
@@ -9,8 +9,10 @@ function trim_string($str) {
   $str = strip_tags($str);
   $str = nl2br($str);
   return $str;
-}
+}*/
 //server names and pw
+
+//another comment
 $server = 'localhost';
 $username = 'root';
 $password = '';
