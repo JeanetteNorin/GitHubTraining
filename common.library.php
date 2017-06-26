@@ -1,5 +1,5 @@
 <?php
-function trim_string($str) {
+/*function trim_string($str) {
   $str = str_replace("å", "&aring;", $str);
   $str = str_replace("ä", "&auml;", $str);
   $str = str_replace("ö", "&ouml;", $str);
@@ -10,6 +10,15 @@ function trim_string($str) {
   $str = nl2br($str);
   return $str;
 }
+}*/
+//server names and pw
+
+//another comment
+$server = 'localhost';
+$username = 'root';
+$password = '';
+$dbname = 'blogg';
+
 //connection to server saved as string
 $conn = mysqli_connect($server, $username, $password, $dbname);
 if (!$conn) {

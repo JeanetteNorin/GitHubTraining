@@ -25,11 +25,12 @@
 			}
 
         //show logout button if login-session is active
-        if (isset($_SESSION['uid'])) {
+        /*if (isset($_SESSION['uid'])) {
           echo "<li><form action='logout.php' method='POST'>
             <button name='logoutSubmit' type='submit'>LOG OUT</button>
           </form></li>";
-        }
+        }*/
+        //this is also a comment
         //show login button if logged out
         else {
            echo "<li><form action='login.php' method='POST'>
