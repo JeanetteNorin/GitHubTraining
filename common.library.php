@@ -10,11 +10,6 @@ function trim_string($str) {
   $str = nl2br($str);
   return $str;
 }
-//server names and pw
-$server = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'blogg';
 //connection to server saved as string
 $conn = mysqli_connect($server, $username, $password, $dbname);
 if (!$conn) {
